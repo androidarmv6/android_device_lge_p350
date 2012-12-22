@@ -22,6 +22,9 @@ TARGET_DISABLE_ARM_PIE := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/p350/bluetooth
 BOARD_BLUEDROID_VENDOR_CONF := device/lge/p350/bluetooth/vnd_p350.txt
 
+TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun0/file
+BOARD_UMS_LUNFILE := "/sys/devices/platform/msm_hsusb/gadget/lun0/file"
+
 WPA_SUPPLICANT_VERSION          := VER_0_8_X
 BOARD_WLAN_DEVICE               := bcm4329
 BOARD_WEXT_NO_COMBO_SCAN        := true
